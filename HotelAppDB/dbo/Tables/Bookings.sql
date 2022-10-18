@@ -1,10 +1,10 @@
 ﻿CREATE TABLE [dbo].[Bookings]
 (
-	[Id] INT NOT NULL PRIMARY KEY, 
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
     [RoomId] INT NOT NULL, 
     [GuestId] INT NOT NULL, 
-    [StartDate] DATETIME NOT NULL, 
-    [EndDate] DATETIME NOT NULL, 
+    [StartDate] DATE NOT NULL, 
+    [EndDate] DATE NOT NULL, 
     [CheckIn] BIT NOT NULL DEFAULT 0, 
     [TotalCost] MONEY NOT NULL, 
     CONSTRAINT [FK_Bookings_Rooms] FOREIGN KEY ([RoomId]) REFERENCES [Rooms]([Id]),

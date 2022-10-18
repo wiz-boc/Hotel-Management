@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Bookings]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Bookings] (Default Constraint)
+     Table rebuild
+       [dbo].[Bookings] (Table)
+     Create
+       [dbo].[spRoomTypes_GetAvailableTypes] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Bookings_Rooms] (Foreign Key)
+       [dbo].[FK_Bookings_Guests] (Foreign Key)
+     Create
+       [dbo].[FK_Bookings_Rooms] (Foreign Key)
+       [dbo].[FK_Bookings_Guests] (Foreign Key)

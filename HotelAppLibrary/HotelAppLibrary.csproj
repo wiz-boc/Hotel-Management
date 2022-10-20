@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<PropertyGroup>
+  <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+</PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -68,6 +72,7 @@
   <ItemGroup>
     <Compile Include="Databases\ISqlDataAccess.cs" />
     <Compile Include="Databases\SqlDataAccess.cs" />
+    <Compile Include="Databases\IDatabaseData.cs" />
     <Compile Include="Data\SqlData.cs" />
     <Compile Include="Models\BookingFullModel.cs" />
     <Compile Include="Models\GuestModel.cs" />

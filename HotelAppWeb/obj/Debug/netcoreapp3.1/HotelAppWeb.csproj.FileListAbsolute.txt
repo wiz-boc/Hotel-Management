@@ -162,3 +162,4 @@ C:\Users\kenroyg\source\repos\HotelApp\HotelAppWeb\bin\Debug\netcoreapp3.1\runti
 C:\Users\kenroyg\source\repos\HotelApp\HotelAppWeb\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
 C:\Users\kenroyg\source\repos\HotelApp\HotelAppWeb\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
 C:\Users\kenroyg\source\repos\HotelApp\HotelAppWeb\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\kenroyg\source\repos\HotelApp\HotelAppWeb\obj\Debug\netcoreapp3.1\Razor\Pages\BookRoom.cshtml.g.cs
